@@ -1,3 +1,14 @@
+# Dependencias
+El programa fue desarrollado y probado utilizando Ubuntu version 22.04.1 
+El programa depende de python en su version 3.10.4 y paquetes instalados de apt:
+    - python3-scipy (1.8.0-1exp2ubuntu1)
+    - python3-numpy (1.21.5-1build2)
+
+# Instrucciones
+
+## Problema 1
+`python3 prob1.py nombre_archivo.wav` p.ej: `python3 prob1.py ImperialMarch60.wav` 
+El programa lee un archivo wav, y lo copia en cpy_nombre_archivo.wav
 
 # Referencias
 https://www2.cs.uic.edu/~i101/SoundFiles/ImperialMarch60.wav
