@@ -1,0 +1,22 @@
+# Dependencias
+El programa fue desarrollado y probado utilizando Ubuntu version 22.04.1 
+El programa depende de python en su version 3.10.4 y paquetes instalados de apt:
+    - python3-scipy (1.8.0-1exp2ubuntu1)
+    - python3-numpy (1.21.5-1build2)
+    - libportaudio2 (19.6.0-1.1)
+
+Adicionalmente de pip:
+    - sounddevice: python3 -m pip install sounddevice
+
+
+# Instrucciones
+
+## Problema 1
+`python3 prob1.py <nombre_archivo.wav>` p.ej: `python3 prob1.py ImperialMarch60.wav` 
+El programa lee un archivo wav, y lo copia en cpy_nombre_archivo.wav
+
+## Problema 3
+`python3 prob3.py <N muestras por ciclo>` p.ej: `python3 prob3.py 100`
+
+# Referencias
+https://www2.cs.uic.edu/~i101/SoundFiles/ImperialMarch60.wav
